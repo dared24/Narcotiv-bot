@@ -2,7 +2,7 @@ try:
     import pyttsx3
     import random
     import time
-    import tkinter
+
 
 
     engine = pyttsx3.init()
