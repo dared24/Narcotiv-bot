@@ -5,19 +5,6 @@ try:
     import tkinter
 
 
-
-
-    def Gui():
-
-        import tkinter
-        m = tkinter.Tk()
-        button = tkinter.Button(m, text='Stop', width=25)
-        button.pack()
-
-        w = tkinter.Canvas(m, width=40, height=60)
-        w.pack()
-        m.mainloop()
-
     engine = pyttsx3.init()
 
     print("NOTICE : pls answer most of the questions in yes or no")
